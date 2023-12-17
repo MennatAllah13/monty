@@ -57,8 +57,8 @@ typedef struct s_bus
 extern t_bus bus;
 
 void push_func(stack_t **head, unsigned int number);
-void pall_func(stack_t **head, unsigned int number);
-void pint_func(stack_t **head, unsigned int number);
+void print_all_func(stack_t **head, unsigned int number);
+void print_top_func(stack_t **head, unsigned int number);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void stack_free(stack_t *head);
 void pop_func(stack_t **head, unsigned int counter);
@@ -69,8 +69,8 @@ void sub_func(stack_t **head, unsigned int counter);
 void div_func(stack_t **head, unsigned int counter);
 void mult_func(stack_t **head, unsigned int counter);
 void mod_func(stack_t **head, unsigned int counter);
-void pchar_func(stack_t **head, unsigned int counter);
-void pstr_func(stack_t **head, unsigned int counter);
+void print_char_func(stack_t **head, unsigned int counter);
+void print_str_func(stack_t **head, unsigned int counter);
 void rotl_func(stack_t **head, unsigned int counter);
 void rotr_func(stack_t **head, __attribute__((unused)) unsigned int counter);
 void node_add(stack_t **head, int n);
