@@ -64,7 +64,7 @@ void stack_free(stack_t *head);
 void pop_func(stack_t **head, unsigned int counter);
 void swap_func(stack_t **head, unsigned int counter);
 void add_func(stack_t **head, unsigned int counter);
-void nop_func(stack_t **head, unsigned int counter);
+void no_func(stack_t **head, unsigned int counter);
 void sub_func(stack_t **head, unsigned int counter);
 void div_func(stack_t **head, unsigned int counter);
 void mult_func(stack_t **head, unsigned int counter);
